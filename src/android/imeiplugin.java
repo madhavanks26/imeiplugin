@@ -115,7 +115,7 @@ public class imeiplugin extends CordovaPlugin {
                 })
                 .show();
     }
-    public void doPermissionGrantedStuffs() {
-        DeviceImeiNumber(CallbackContext callbackContext);
+    public void doPermissionGrantedStuffs(CallbackContext callbackContext) {
+        DeviceImeiNumber(callbackContext);
     }
 } 
